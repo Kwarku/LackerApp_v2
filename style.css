@@ -1,0 +1,74 @@
+
+    /* main container  */
+#Container{
+    -fx-background-image: url("image/background.png");
+     -fx-background-position: center;
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+}
+
+    /* each button in turn */
+#Button1{
+    -fx-background-image: url("image/Button1.png");
+}
+#Button2{
+    -fx-background-image: url("image/Button2.png");
+}
+#Button3{
+    -fx-background-image: url("image/Button3.png");
+}
+#Button4{
+    -fx-background-image: url("image/Button4.png");
+}
+#Button5{
+    -fx-background-image: url("image/Button5.png");
+}
+#Button6{
+    -fx-background-image: url("image/Button6.png");
+}
+#Button7{
+    -fx-background-image: url("image/Button7.png");
+}
+#Button8{
+    -fx-background-image: url("image/Button8.png");
+}
+#Button9{
+    -fx-background-image: url("image/Button9.png");
+}
+#Button0{
+    -fx-background-image: url("image/Button0.png");
+}
+#ButtonEnter{
+    -fx-background-image: url("image/ButtonEnter.png");
+}
+#ButtonClear{
+    -fx-background-image: url("image/ButtonClear.png");
+}
+
+/* All buttons   */
+.button{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 90% 90%;
+    -fx-background-color: transparent;
+    -fx-opacity: 75%;
+}
+
+/* Password Field */
+#PassField{
+    -fx-opacity: 0%;
+    -fx-background-color: #bd081c;
+    -fx-background-radius: 70% 50%;
+}
+
+/* mouse on password field */
+#PassField:hover{
+-fx-background-color: #4c75a3;
+}
+
+/* mouse on button */
+.button:hover{
+    -fx-opacity: 100%;
+}
+
