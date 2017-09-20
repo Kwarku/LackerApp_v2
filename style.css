@@ -1,4 +1,6 @@
-
+.Border-Pane{
+    -fx-background-color: blue;
+}
     /* main container  */
 #Container{
     -fx-background-image: url("image/background.png");
